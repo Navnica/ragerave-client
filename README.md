@@ -27,9 +27,17 @@ pip install -r requirements.txt
 ## 🔧 Настройка  
 1. Отредактируйте `settings.py`:  
 ```python  
-SERVER_IP = '127.0.0.1'  
-SERVER_PORT = 8888  
+host = '127.0.0.1'  
+port = 8888
+
+nickname = "ur real name"   
 ```  
+
+## Запуск
+
+```bash
+python main.py
+```
 
 ## 🖥 Использование  
 ### Основные команды  
