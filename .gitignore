@@ -1,0 +1,58 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.local
+secrets.yml
+instance/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary files
+*.bak
+*.tmp
+*.cache
+*~
